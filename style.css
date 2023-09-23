@@ -1,0 +1,16 @@
+.btn-success:hover{
+    background-color: cyan;
+}
+h3{
+    font-size: 25px !important;
+    color: lime !important;
+}
+canvas{
+    animation-name: sillypranay !important;
+    animation-duration: 4s !important;
+    animation-iteration-count: infinite !important;
+}
+@keyframes sillypranay{
+    from{box-shadow: 1px 1px 38px lime}
+    to{box-shadow: 1px 1px 38px cyan}
+}
